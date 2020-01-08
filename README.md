@@ -2,7 +2,8 @@
 Provide a way to automaticcaly run nextcloud's cron.php file inside the docker container
 
 ## Example usage
-The following `docker-compose.yml` will bring up a nextcloud instance on `localhost:8080`
+The following `docker-compose.yml` will bring up a nextcloud instance on `localhost:8080`.
+Afterwards check if the setting under `Settings > Administration > Basic Settings > Background jobs` is set to `Cron`.
 ```yaml
 version: '2'
 
